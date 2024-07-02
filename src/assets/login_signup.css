@@ -1,0 +1,66 @@
+.container-padre{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+}
+.container{ 
+	display: flex; 
+	flex-direction: column;
+}
+.container input, button{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px rgb(70, 60, 60); 
+	max-width: 100%;
+}
+.container h1{
+	padding: 10px;
+}
+.container button{
+	transition: background-color 0.5s ease, color 0.5s ease;
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
+.container button:hover{
+	background-color: rgb(255, 255, 255);
+	color: black;
+}
+aside{ 
+	display: flex;
+	flex-direction: column;
+}
+label{ 
+	color: black; 
+}	
+h1{
+	color: black;
+	text-shadow: 0.5px 0.5px 0.5px rgb(109, 87, 87);
+}
+aside img {
+  width: 400px; 
+  height: 400px;
+  border-radius: 10px;
+  margin-right: 60px;
+  box-shadow: 5px 5px 5px rgb(70, 60, 60);
+}
+nav{
+	background-color: rgb(0, 0, 0);
+	padding: 1rem;	
+	margin-bottom: 1rem;
+	border-radius: 10px;
+}
+/* Estilos para las etiquetas dentro del nav */
+nav a{
+	color: white;
+	padding: 1rem;
+}
+nav a:hover{
+	color: black;
+	background-color: white;
+}
+nav{
+	box-shadow: 5px 5px 5px rgb(70, 60, 60);
+}
